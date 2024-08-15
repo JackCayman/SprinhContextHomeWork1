@@ -10,7 +10,7 @@ public class App {
         ProductRepository productRepository = context.getBean(ProductRepository.class);
         productRepository.showAllProducts();
         System.out.println();
-        productRepository.showProductById(3);
+        System.out.println(productRepository.findProductById(4));
 
         Cart cart = context.getBean(Cart.class);
         cart.addToCart(1);

@@ -28,13 +28,13 @@ public class ProductRepository {
             System.out.println(product.toString());
         }
     }
-    public void showProductById(int id) {
-        for (Product product : products) {
-            if (product.getId() == id) {
-                System.out.println(product.toString());
-            }
-        }
-    }
+//    public void showProductById(int id) {
+//        for (Product product : products) {
+//            if (product.getId() == id) {
+//                System.out.println(product.toString());
+//            }
+//        }
+//    }
 
     public Product findProductById(int id) {
         for (Product product : products) {
